@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sociallisteningapi": {
+      "url": "https://api.sociallisteningapi.com/mcp",
+      "auth": {
+        "CLIENT_ID": "https://api.sociallisteningapi.com/.well-known/oauth-client/sociallisteningapi-cursor",
+        "scopes": ["mcp:search"]
+      }
+    }
+  }
+}
