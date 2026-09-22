@@ -5,8 +5,8 @@ public social posts, Google results, and Instagram discovery data. Searches use 
 SocialListeningAPI workspace credits. The plugin contains connection settings only; search tools
 run on the hosted MCP server.
 
-**Status:** Pre-release. The static OAuth client in the SocialListeningAPI backend must be deployed,
-and Grok Bot sign-in still needs a live connection check before marketplace submission.
+**Status:** Pre-release. The static OAuth client metadata is live. Cursor and Grok Bot sign-in still
+need a live connection check before marketplace submission.
 
 ## What you need
 
@@ -86,10 +86,11 @@ using a summary in a report.
 
 ## Release checks
 
-1. Deploy the SocialListeningAPI OAuth client metadata endpoint.
-2. Confirm the metadata URL returns the client ID and Cursor redirect URLs.
-3. Install this plugin in Cursor and complete OAuth with a test workspace.
-4. Connect in Grok Bot, list supported sources, and run one approved paid search.
-5. Publish this repository publicly and submit its URL for marketplace review.
+1. [x] Deploy the SocialListeningAPI OAuth client metadata endpoint.
+2. [x] Confirm the metadata URL returns the client ID and Cursor redirect URLs.
+3. [ ] Install this plugin in Cursor and complete OAuth with a test workspace.
+4. [ ] Connect in Grok Bot, list supported sources, and run one approved paid search.
+5. [x] Publish this repository publicly.
+6. [ ] Submit the repository URL for marketplace review.
 
 This repository is licensed under the [MIT License](LICENSE).
