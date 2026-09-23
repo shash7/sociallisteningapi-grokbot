@@ -32,7 +32,8 @@ Grok Bot marketplace install, so check Grok Bot separately before publishing.
 The MCP URL is `https://api.sociallisteningapi.com/mcp`. The connection uses a public, static
 OAuth client ID at
 `https://api.sociallisteningapi.com/.well-known/oauth-client/sociallisteningapi-cursor`.
-The ID is not a secret. Each user signs in to their own SocialListeningAPI workspace.
+The ID is not a secret. The OAuth scope is `mcp`. Each user signs in to their own
+SocialListeningAPI workspace.
 
 ## Try it
 

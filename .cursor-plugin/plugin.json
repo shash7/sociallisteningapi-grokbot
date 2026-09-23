@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Search public social posts, Google results, and Instagram discovery data through SocialListeningAPI.",
   "author": {
-    "name": "SocialListeningAPI"
+    "name": "SocialListeningAPI",
+    "email": "shash@mentionkit.com"
   },
   "homepage": "https://sociallisteningapi.com/mcp",
+  "repository": "https://github.com/shash7/sociallisteningapi-grokbot",
+  "logo": "assets/logo-dark.png",
   "license": "MIT",
   "keywords": [
     "social listening api",
